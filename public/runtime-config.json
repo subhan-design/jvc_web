@@ -1,0 +1,18 @@
+{
+  "environment": "development",
+  "development": {
+    "apiBaseUrl": "http://localhost:8081",
+    "bypassDocCapture": true,
+    "bypassValidfi": false,
+    "useMockResponses": false,
+    "consumerVerifiedEnvironment": "sandbox"
+  },
+  "production": {
+    "apiBaseUrl": "https://jvch-app.jvcpayments.com",
+    "bypassDocCapture": false,
+    "bypassValidfi": false,
+    "useMockResponses": false,
+    "consumerVerifiedEnvironment": "production"
+  }
+
+}

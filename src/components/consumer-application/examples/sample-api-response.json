@@ -1,0 +1,100 @@
+{
+  "success": true,
+  "message": "Disclosures retrieved successfully",
+  "data": {
+    "title": "Offer Terms and Conditions",
+    "effectiveDate": "2025-02-01T00:00:00Z",
+    "sections": [
+      {
+        "name": "Prescreen and Opt-Out Notice",
+        "rows": [
+          {
+            "label": "Notice",
+            "value": "<p class='leading-relaxed'>The consumer received the offer of credit or insurance because the consumer satisfied the criteria for credit worthiness or insurability under which the consumer was selected for the offer. If applicable, the credit or insurance may not be extended if, after the consumer responds to the offer, the consumer does not meet the criteria used to select the consumer for the offer or any applicable criteria bearing on credit worthiness or insurability or does not furnish any required collateral. You have the right to prohibit information contained in your credit file with any credit reporting agency from being used in connection with any credit or insurance transactions that you did not initiate. To exercise this right, please call Experian Opt-Out at 1-888-5OPTOUT (1-888-567-8688), or write to Experian, P.O. Box 919, Allen, TX 75013.</p>"
+          }
+        ]
+      },
+      {
+        "name": "Offer Terms and Conditions",
+        "rows": [
+          {
+            "label": "Terms",
+            "value": "<p class='leading-relaxed'>This offer is made by Joint Venture Card. Information from your consumer credit report was used in connection with this offer and you received this offer because certain creditworthiness criteria used to screen persons was satisfied. Credit may not be extended if, after you respond to this offer, you no longer meet the selection criteria. Additional eligibility requirements for this line of credit include, but are not limited to, submission of a complete application, acceptable debt-to-income ratio, verification of identity, and verifiable bank account in your name. Other terms and conditions may apply. Minimum line assignment is $250.</p>"
+          }
+        ]
+      },
+      {
+        "name": "Interest Rates And Interest Charges",
+        "rows": [
+          {
+            "label": "Annual Percentage Rate (APR) for Purchases",
+            "value": "<p><span class='font-semibold'>29.99%</span> based upon your credit worthiness.</p><p class='mt-1 text-gray-600'>This APR will vary with the market based on the rate published by the Board of Governors of the Federal Reserve System in its Statistical Release H.15 Selected Interest Rates.</p>"
+          },
+          {
+            "label": "Penalty APR and When it Applies",
+            "value": "None"
+          },
+          {
+            "label": "Paying Interest",
+            "value": "We will begin charging interest on purchases on the transaction date."
+          },
+          {
+            "label": "Minimum Interest Charge",
+            "value": "None"
+          },
+          {
+            "label": "For Credit Card Tips from the Consumer Financial Protection Bureau",
+            "value": "To learn more about factors to consider when applying for or using a credit card, visit the website of the Consumer Financial Protection Bureau at <a href='https://www.consumerfinance.gov/learnmore' target='_blank' rel='noreferrer' class='text-[#043C6B] underline'>consumerfinance.gov/learnmore</a>."
+          }
+        ]
+      },
+      {
+        "name": "Fees",
+        "rows": [
+          {
+            "label": "Annual Fee",
+            "value": "None"
+          },
+          {
+            "label": "Penalty Fees",
+            "value": "<ul class='list-disc ml-5 space-y-1'><li><span class='font-medium'>Late payment:</span> Up to $35</li><li><span class='font-medium'>Returned payment:</span> Up to $35</li></ul>"
+          }
+        ]
+      },
+      {
+        "name": "Transaction Fees",
+        "rows": [
+          {
+            "label": "Balance Transfer",
+            "value": "None"
+          },
+          {
+            "label": "Cash Advance",
+            "value": "Either $10 or 5% of the amount of each cash advance, whichever is greater."
+          },
+          {
+            "label": "Foreign Transaction",
+            "value": "3% of each transaction in U.S. dollars."
+          }
+        ]
+      },
+      {
+        "name": "Credit Limit Information",
+        "rows": [
+          {
+            "label": "Your Credit Limit",
+            "value": "$550"
+          },
+          {
+            "label": "Minimum Credit Limit",
+            "value": "$250"
+          },
+          {
+            "label": "Credit Limit Review",
+            "value": "Your credit limit may be reviewed periodically and adjusted based on your payment history and credit utilization."
+          }
+        ]
+      }
+    ]
+  }
+}

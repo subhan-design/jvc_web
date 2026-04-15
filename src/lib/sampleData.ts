@@ -1,0 +1,110 @@
+export const SAMPLE_ENABLED = 'true';
+
+export const samplePersonalDetails = {
+  title: 'Mrs',
+  firstName: 'Lily',
+  lastName: 'Anderson',
+  ssn: '753951486',
+  einOrSsnNumber: '82-1374920',
+  email: 'lily.anderson+dev17@example.com',
+  username: 'lilyanderson17',
+  password: 'LilyTest#2025',
+  phone: '5559871234',
+  dateOfBirth: '1983-09-10',
+  driverLicenseFrontUrl: '',
+  driverLicenseBackUrl: '',
+  otpOption: 'email',
+  referralCode: 'REF992',
+  legalNameOfBusiness: 'Anderson Strategy Partners',
+  dbaIfApplicable: 'ASP Group',
+  businessSelect: 'consulting',
+  dateBusinessStarted: '2022-01-12',
+  businessWebsite: 'https://andersonstrategy.com',
+  legalEntity: 'LLC',
+  entity: 'LLC',
+  stateWhereRegistered: 'Illinois',
+  hasBusinessLicense: 'yes',
+  businessOwnerMember: 'yes',
+  primaryPhysicalAddress1: '500 Strategy Ave',
+  primaryPhysicalAddress2: 'Floor 2',
+  city: 'Chicago',
+  state: 'Illinois',
+  zipCode: '60601',
+  businessType: ['consulting'],
+  typeOfBusiness: 'Business Strategy',
+  licenseNumber: 'IL-884422',
+  license: '',
+};
+
+export const sampleBusinessDetails = {
+  ...samplePersonalDetails,
+};
+
+export const sampleOwnerData = {
+  ownershipPercentage: '100',
+  owners: [
+    {
+      firstName: 'Lily',
+      lastName: 'Anderson',
+      ownershipPercentage: '65',
+      ssn: '753951486',
+      dateOfBirth: '1983-09-10',
+      title: 'Managing Partner',
+      telephoneNumber: '5559871234',
+      email: 'lily.anderson+dev17@example.com',
+      homeAddress: '500 Strategy Ave',
+      address2: 'Floor 2',
+      city: 'Chicago',
+      state: 'Illinois',
+      zipCode: '60601',
+      hasOwnershipInterest: 'yes',
+    },
+    {
+      firstName: 'Daniel',
+      lastName: 'Cooper',
+      ownershipPercentage: '30',
+      ssn: '654123879',
+      dateOfBirth: '1987-01-05',
+      title: 'Partner',
+      telephoneNumber: '5552227788',
+      email: 'daniel.cooper+dev18@example.com',
+      homeAddress: '400 Grant Rd',
+      address2: '',
+      city: 'Naperville',
+      state: 'Illinois',
+      zipCode: '60540',
+      hasOwnershipInterest: 'yes',
+    },
+    {
+      firstName: 'Maya',
+      lastName: 'Singh',
+      ownershipPercentage: '5',
+      ssn: '987654312',
+      dateOfBirth: '1991-06-18',
+      title: 'Investor',
+      telephoneNumber: '5551116655',
+      email: 'maya.singh+dev19@example.com',
+      homeAddress: '800 River Dr',
+      address2: 'Unit 3C',
+      city: 'Peoria',
+      state: 'Illinois',
+      zipCode: '61602',
+      hasOwnershipInterest: 'yes',
+    },
+  ],
+};
+
+export const sampleBankDetails = {
+  nameOnAccount: 'Anderson Strategy Partners',
+  financialInstitution: 'Midwest Trust Bank',
+  routingNumber: '071000013',
+  accountNumber: '5566778899',
+  accountType: 'checking',
+};
+
+export const sampleAgreement = {
+  // businessLocations and averageTransaction removed from agreement
+  fullName: 'Lily Anderson',
+  signature: 'Lily Anderson',
+  termsAccepted: true,
+};
